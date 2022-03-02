@@ -1,6 +1,6 @@
 #  Demo app for scroll view - horizontal and vertical
 
-How to set contstraints for an scroll view to work
+How to set constraints for an scroll view to work
 
 1. Scroll view should have 4 constraints
     1. top
