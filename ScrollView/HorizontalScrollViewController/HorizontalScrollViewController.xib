@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HorizontalScrollViewController" customModule="ScrollView" customModuleProvider="target">
+            <connections>
+                <outlet property="scrollView" destination="atN-De-naL" id="Dg5-rS-7B5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atN-De-naL">
+                    <rect key="frame" x="10" y="64" width="394" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uv9-6r-ULQ" userLabel="label">
+                            <rect key="frame" x="0.0" y="0.0" width="4471.5" height="50"/>
+                            <color key="backgroundColor" red="0.97019225360000005" green="0.82847863440000002" blue="0.27824655180000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <mutableString key="text">The next step depends if you want to have either a vertical or a horizontal scroll. If you need a vertical scroll you'll need to set the 'Equal Heights Constraint' priority to 250. On the other hand, if a horizontal scroll is what you search for you'll have to set the 'Equal Widths Constraint' priority to 250.The next step depends if you want to have either a vertical or a horizontal scroll. If you need a vertical scroll you'll need to set the 'Equal Heights Constraint' priority to 250. On the other hand, if a horizontal scroll is what you search for you'll have to set the 'Equal Widths Constraint' priority to 250.</mutableString>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="uv9-6r-ULQ" firstAttribute="top" secondItem="atN-De-naL" secondAttribute="top" id="DcA-62-eok"/>
+                        <constraint firstAttribute="trailing" secondItem="uv9-6r-ULQ" secondAttribute="trailing" id="Hhk-RI-Smu"/>
+                        <constraint firstAttribute="height" constant="50" id="Q4V-Ss-BLo"/>
+                        <constraint firstItem="uv9-6r-ULQ" firstAttribute="width" secondItem="atN-De-naL" secondAttribute="width" priority="250" id="a1h-eB-0dx"/>
+                        <constraint firstAttribute="bottom" secondItem="uv9-6r-ULQ" secondAttribute="bottom" id="cHm-Sw-nfN"/>
+                        <constraint firstItem="uv9-6r-ULQ" firstAttribute="height" secondItem="atN-De-naL" secondAttribute="height" id="m17-hy-PZ0"/>
+                        <constraint firstItem="uv9-6r-ULQ" firstAttribute="leading" secondItem="atN-De-naL" secondAttribute="leading" id="sYv-et-Ld6"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="dWB-Ts-nlZ"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="J7O-SW-6vz"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="atN-De-naL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="7O7-NE-p2k"/>
+                <constraint firstAttribute="trailing" secondItem="atN-De-naL" secondAttribute="trailing" constant="10" id="FBB-A9-q3w"/>
+                <constraint firstItem="atN-De-naL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="fgA-V0-mFx"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="131"/>
+        </view>
+    </objects>
+</document>
