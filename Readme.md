@@ -1,9 +1,6 @@
 #  Demo app for scroll view - horizontal and vertical
 
-
-
-https://user-images.githubusercontent.com/52130832/156348468-ec27ca32-59d7-4c88-b629-7492f7a5c0d4.mov
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/52130832/156348895-815e3ef4-e89d-47f4-a868-8bf8dc89d5b2.gif)
 
 
 How to set constraints for an scroll view to work
